@@ -65,11 +65,11 @@ content:
   - title: Publications 
     layout: text
     content: | # this will include new lines to allow paragraphs
-      [1]. Xiaodong Jia, Ashish Kumar, and Gang Tan. 2023. A Derivative-Based Parser Generator for Visibly Pushdown Grammars. ACM Trans. Program. Lang. Syst. Just Accepted (April 2023). https://doi.org/10.1145/3591472
+      [1]. Xiaodong Jia, Ashish Kumar, and Gang Tan. 2023. A Derivative-Based Parser Generator for Visibly Pushdown Grammars. ACM Trans. Program. Lang. Syst. Just Accepted (April 2023). https://doi.org/10.1145/3591472 [PDF](https://dl.acm.org/doi/pdf/10.1145/3591472)
 
-      [2]. Xiaodong Jia, Ashish Kumar, and Gang Tan. 2021. A derivative-based parser generator for visibly Pushdown grammars. Proc. ACM Program. Lang. 5, OOPSLA, Article 151 (October 2021), 24 pages. https://doi.org/10.1145/3485528
+      [2]. Xiaodong Jia, Ashish Kumar, and Gang Tan. 2021. A derivative-based parser generator for visibly Pushdown grammars. Proc. ACM Program. Lang. 5, OOPSLA, Article 151 (October 2021), 24 pages. https://doi.org/10.1145/3485528 [PDF](https://dl.acm.org/doi/pdf/10.1145/3485528)
 
-      [3]. He, J., Jia, X., Xu, J. et al. Make ℓ1 regularization effective in training sparse CNN. Comput Optim Appl 77, 163–182 (2020). https://doi.org/10.1007/s10589-020-00202-1 
+      [3]. He, J., Jia, X., Xu, J. et al. Make ℓ1 regularization effective in training sparse CNN. Comput Optim Appl 77, 163–182 (2020). https://doi.org/10.1007/s10589-020-00202-1 [PDF](https://arxiv.org/pdf/1807.04222.pdf)
   
 # Footer
 footer_show_references: true
