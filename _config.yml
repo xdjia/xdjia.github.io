@@ -65,7 +65,7 @@ content:
   - title: Publications 
     layout: text
     content: | # this will include new lines to allow paragraphs
-      [1]. Xiaodong Jia, Ashish Kumar, and Gang Tan. 2023. A Derivative-Based Parser Generator for Visibly Pushdown Grammars. ACM Trans. Program. Lang. Syst. Just Accepted (April 2023). https://doi.org/10.1145/3591472 [PDF](https://dl.acm.org/doi/pdf/10.1145/3591472)
+      [1]. Xiaodong Jia, Ashish Kumar, and Gang Tan. 2023. A Derivative-Based Parser Generator for Visibly Pushdown Grammars. ACM Trans. Program. Lang. Syst. (TOPLAS) Just Accepted (April 2023). https://doi.org/10.1145/3591472 [PDF](https://dl.acm.org/doi/pdf/10.1145/3591472)
 
       [2]. Xiaodong Jia, Ashish Kumar, and Gang Tan. 2021. A derivative-based parser generator for visibly Pushdown grammars. Proc. ACM Program. Lang. 5, OOPSLA, Article 151 (October 2021), 24 pages. https://doi.org/10.1145/3485528 [PDF](https://dl.acm.org/doi/pdf/10.1145/3485528)
 
