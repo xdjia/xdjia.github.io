@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   Throughout my academic journey, I have developed a strong passion for several key areas within the field of computer science. My main research interests encompass formal verification, parsing, grammar inference, and machine learning. As an avid researcher, I strive to contribute to the ongoing advancements in these fields by exploring innovative solutions and pushing the boundaries of our current knowledge.
 
-  I am most skilled in: <mark>Python</mark>, <mark>PyTorch</mark>, <mark>Coq</mark>, <mark>OCaml</mark>, and <mark>Haskell</mark>.
+  I am most skilled in: <mark>C++</mark>, <mark>Python</mark>, <mark>PyTorch</mark>, <mark>Coq</mark>, <mark>OCaml</mark>, and <mark>Haskell</mark>.
 
 content:
   - title: Research Interest
