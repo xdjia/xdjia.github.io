@@ -58,7 +58,7 @@ The two events of interests are scheduled into the Active region:
 #### Event Execution
 
 The language reference manual[^1] (LRM) states that
-(1) the simulator can executed the events in any order, and (2) within a block, the simulator can suspend statements execution and turn to another event.
+(1) the simulator can execute the events in any order, and (2) within a block, the simulator can suspend statements execution and turn to another event.
 Therefore, the simulator can execute the events in three ways.
 
    - Evaluate Event 2, then Event 1. Consequently, `in` is captured as `1`.
