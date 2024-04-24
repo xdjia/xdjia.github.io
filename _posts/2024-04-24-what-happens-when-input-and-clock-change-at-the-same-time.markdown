@@ -12,14 +12,10 @@ module register(
   input logic in,
   output reg out
 );
-  initial begin
-    out = 0;  // Initial state of the output
-  end
+  initial out = 0;  // Initial state of the output
 
   // Capture input at the rising edge of the clock
-  always @(posedge clk) begin
-    out <= in;
-  end
+  always @(posedge clk) out <= in;
 endmodule
 
 // Testbench to simulate the register behavior
