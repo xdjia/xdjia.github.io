@@ -46,7 +46,7 @@ endmodule
 ```
 
 In real hardware, an input that changes right at the clock edge can potentially lead to metastability due to violations of setup and hold times.
-In the simulation, particularly at the point where the input (`in`) and the clock (`clk`) change at the same simulation time, Verilog handles the events based on its simulation model. Here’s what happens:
+In the simulation, particularly at the point where the input (`in`) and the clock (`clk`) change at the same simulation time, SystemVerilog handles the events based on its simulation model. Here’s what happens:
 
 #### Event Scheduling
 
