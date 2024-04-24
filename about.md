@@ -23,4 +23,4 @@ He is most skilled in: `C/C++`, `Python`, `PyTorch`, `Coq`, `OCaml`, and `System
 
 - LangSec 2023 and 2024
 
-[^1]: The name "Xiaodong" can be pronounced as "shyow-dong." Here, "Xiao" sounds like "shyow," rhyming with "cow," and "dong" is pronounced as it looks, rhyming with "song."
+[^1]: "Xiaodong" can be pronounced as "shyow-dong", and "Jia" can be approximated as "Jyah" or "Jee-ah".
