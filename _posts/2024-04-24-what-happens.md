@@ -5,7 +5,7 @@ date:   2024-04-24 16:12:03 -0400
 categories: jekyll update
 ---
 
-```Verilog
+```verilog
 // Declare a register module
 module register(
   input logic clk,
