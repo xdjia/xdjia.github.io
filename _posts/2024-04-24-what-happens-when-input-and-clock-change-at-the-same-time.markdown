@@ -86,5 +86,5 @@ module osc1 (clk);
 endmodule 
 ```
 
-[^1]: [1800-2023 - IEEE Standard for SystemVerilog](https://ieeexplore.ieee.org/document/10458102)
+[^1]: [1800-2023 - IEEE Standard for SystemVerilog](https://ieeexplore.ieee.org/document/10458102), 4.7 Nondeterminism
 [^2]: [Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!](http://www.sunburst-design.com/papers/CummingsSNUG2000SJ_NBA_rev1_2.pdf)
