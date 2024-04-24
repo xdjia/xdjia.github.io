@@ -76,13 +76,13 @@ After: clk=1, in=0, out=0
 Below shows a famous way[^2] to write a clock oscillator. It works because the RHS of `clk = ~clk;` is evaluated in the Active region, which is before the update of the LHS in the NBA region.
 
 ```Verilog
-module osc1 (clk);
+module osc2 (clk);
   output clk;
   reg clk;
 
   initial #10 clk = 0;
 
-  always @(clk) #10 clk = ~clk;
+  always @(clk) #10 clk <= ~clk;
 endmodule 
 ```
 
