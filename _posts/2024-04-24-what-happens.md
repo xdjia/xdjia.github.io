@@ -10,7 +10,7 @@ categories: jekyll update
 module register(
   input logic clk,
   input logic in,
-  output reg out
+  output logic out
 );
   initial out = 0;  // Initial state of the output
 
@@ -41,14 +41,14 @@ module testbench();
 endmodule
 ```
 
-In real hardware, an input that changes right at the clock edge can potentially lead to metastability due to violations of setup and hold times.
+In real hardware, an input that changes at the clock's rising edge can potentially lead to metastability due to violations of setup and hold times.
 In the simulation, particularly at the point where the input (`in`) and the clock (`clk`) change at the same simulation time, SystemVerilog handles the events based on its simulation model. Here’s what happens:
 
 #### Event Scheduling
 
 The two events of interests are scheduled into the Active region:
 
-   - Event 1: Begin-End Block Evaluation.
+   - Event 1: Begin-End Block Evaluation. Including `clk = 1;` and `in = 0;`.
    - Event 2: Nonblocking Statement Evaluation. The right-hand side (RHS) of the nonblocking statement `out <= in`, denoted as `in`, is evaluated.
 
 #### Event Execution
