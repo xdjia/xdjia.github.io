@@ -69,19 +69,6 @@ Before: clk=0, in=1, out=0
 After: clk=1, in=0, out=0
 ```
 
-Below shows a famous way[^3] to write a clock oscillator. It works because the RHS of `clk = ~clk;` is evaluated in the Active region, which is before the update of the LHS in the NBA region.
-
-```verilog
-module osc2 (clk);
-  output clk;
-  reg clk;
-
-  initial #10 clk = 0;
-
-  always @(clk) #10 clk <= ~clk;
-endmodule 
-```
-
 [^1]: [Digital Design and Computer Architecture: ARM Edition](https://a.co/d/hRg4Ugl), Example 3.2
+
 [^2]: [1800-2023 - IEEE Standard for SystemVerilog](https://ieeexplore.ieee.org/document/10458102), 4.7 Nondeterminism
-[^3]: [Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!](http://www.sunburst-design.com/papers/CummingsSNUG2000SJ_NBA_rev1_2.pdf)
