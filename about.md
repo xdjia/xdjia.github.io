@@ -17,7 +17,10 @@ He is most skilled in: `C/C++`, `Python`, `PyTorch`, `Coq`, `OCaml`, and `System
 
 #### Talks
 
+- May 2024 - New Jersey Programming Languages and Systems Seminar (NJPLS). *V-Star: Learning Visibly Pushdown Grammars from Program Inputs*.
 - May 2022 - New Jersey Programming Languages and Systems Seminar (NJPLS). *A derivative-based parser generator for visibly pushdown grammars*.
+
+    ![](pictures/njpls2024.jpg)
 
 #### PC Members
 
